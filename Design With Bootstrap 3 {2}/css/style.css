@@ -1,0 +1,454 @@
+/****Start Global Rules****/
+
+body {font-family: Helvetica}
+
+/****End Global Rules****/
+
+/*Start  navbar */
+.navbar {padding: 5px 0}
+.navbar .navbar-brand{
+    font-size: 35px ; letter-spacing: 5px
+}
+
+.navbar .navbar-brand span {color: #FF8B38}
+
+.scrolled {
+    background: rgba(0,0,0,0.8)
+}
+
+/*End  navbar */
+
+/*Start Header*/
+.header {
+    background: url(../images/header.jpg)no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    color: #FFF
+}
+
+.header .overlay {
+    position: absolute ; width: 100% ; height: 100% ; top: 0 ; left: 0;
+    background: rgba(0,0,0,0.5);
+}
+
+.header .centering-vh {
+    margin-top: 25vh
+}
+
+
+.header h1 {
+    font-size: 60px ; font-weight: bold ; letter-spacing: 5px
+}
+
+.header h1 span {
+    font-weight: normal ; color: #FF8B38
+}
+
+.header .lead {
+    font-size: 30px
+}
+
+.header .lead:after {
+    content: "";
+    display: block ; width: 70px ; height: 2px ; background: #FFF ; margin: 25px 0
+}
+
+@media (max-width: 991px) {
+    
+    .header h1 {
+        font-size: 40px
+    }
+    
+    .header .lead:after {
+        margin: 25px auto
+    }
+    .header .centering-vh {
+        margin-top: 60px
+    }
+    .header button {
+        margin : 30px auto ; display: block
+    }
+    
+
+
+}
+
+.header button {
+    background: transparent ; padding: 10px 30px ; border: 2px solid #FFF ; margin-top: 20px
+}
+
+
+.header form {
+    width: 320px ; background: #FFF ; border-radius: 5px ; overflow: hidden
+}
+
+.header form h2 {
+    background: #F5F5F5 ; color: #333 ; font-size: 18px ; padding: 15px ; font-weight: bold ; margin-top: 0 ; margin-bottom: 30px
+}
+.header form h2 span { color: #FF8B38 }
+
+.header form .form-control {
+    border-radius: none ; border: none ; box-shadow: none ; border-bottom: 1px solid #CCC ; width: 80% ; margin: 0 auto 40px
+}
+
+.header form input[type="submit"] {
+    background: #FF8B38 ; color: #FFF ; padding: 15px ; margin-top: 50px
+}
+
+/*End Header*/
+
+/*Start Social*/
+.social {
+    padding: 10px ; background: #FFF ; 
+    -webkit-box-shadow: -2px -5px 13px #000
+}
+
+.social h4 {
+    font-weight: bold ; margin-bottom: 5px
+}
+
+.social p {
+    color: #A1A1A1 ; line-height: 1.4
+}
+
+.social i {
+    color: #CCC ; margin: 20px 15px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer
+}
+
+.social .fa-facebook:hover {
+    color: #4267B2;
+}
+.social .fa-twitter:hover {
+    color: #1DA1F2;;
+}.social .fa-pinterest:hover {
+    color: #BD081C;
+}.social .fa-instagram:hover {
+    color: #405DE6;
+}.social .fa-google-plus:hover {
+    color: #DB4437;
+}.social .fa-facebook:hover {
+    color: #4267B2;
+}
+/*End Social*/
+
+/*Start Tabs Section*/
+.tabs-section {
+    padding: 50px 0 ; background: #f5f5f5
+}
+
+.tabs-section .tab-switch li {
+    background: #333 ; color: #FFF; border-bottom: 1px solid #FFF ; height: 110px ; line-height: 110px ;font-size: 15px ; text-transform: uppercase; cursor: pointer ; width: 130px
+}
+
+.tabs-section .tab-switch li.selected {
+    background: #FF8B38
+}
+
+.tabs-section .tabs-content div:not(.tab-one) {
+    display: none
+}
+
+.tabs-content h3 {
+    margin-top: 0 ; font-weight: bold ; letter-spacing: -1px ; margin-bottom: 20px
+}
+
+.tabs-content .lead {
+    line-height: 1.6 ; font-size: 18px ; color: #7e7e7e
+}
+
+.tabs-content button {
+    background: #FF8B38 ; color: #FFF
+}
+/*End Tabs Section*/
+
+/*Start sublist */
+.sublist {
+    padding: 60px 0 
+}
+
+.sublist .sub-img {
+    margin-top: 40px ; box-shadow: 0px 0px 20px 2px;
+}
+
+.sublist .sublist-head {
+    font-weight: bold 
+}
+
+.sublist .sublist-desc {
+    line-height: 1.6 ; color:  #777; margin-bottom: 30px
+}
+
+.sublist .list-icon {
+    margin-bottom: 30px ; overflow: hidden
+}
+
+.sublist .list-icon i {
+    width: 40px ; height: 40px ; color: #FF8B38 ; border: 2px solid #FF8B38  ;
+    line-height: 40px ;text-align: center ; border-radius: 50% ; margin-right: 20px ; margin-top: 20px
+}
+
+.text-info {
+    margin-right: 0 ; width: calc(100% - 70px)
+}
+.text-info h4 {
+    font-weight: bold
+}
+/*End sublist */
+
+/*Start Standard*/
+.standard {
+    padding: 60px 0 ; background: #F5F5F5
+}
+
+.standard .standard-img {
+    box-shadow: 0px 0px 20px 2px;
+}
+
+.standard .standard-head {
+    font-weight: bold  ; margin-top: 40px ;
+}
+
+.standard .standard-desc {
+    line-height: 1.6 ; color:  #777; margin-bottom: 30px
+}
+/*End Standard*/
+
+/*Start Awesome*/
+
+.awesome {
+    padding-top: 60px ; padding-bottom: 60px
+}
+
+.awesome .awesome-text p {
+    color: #a1a1a1 ; font-size: 13px
+}
+
+.awesome .awesome-icon {
+    margin-top: 70px
+}
+
+.awesome .awesome-icon i {
+    border: 1px solid #FF8B38 ; color: #FF8B38 ; border-radius: 50%  ; height: 70px; width: 70px ; line-height: 70px;
+    text-align: center
+}
+
+.awesome .awesome-icon h3 {
+    font-weight: bold
+}
+
+.awesome .awesome-icon p {
+    color: #666 ; line-height: 1.7
+}
+
+/*End Awesome*/
+
+
+/*Start Pricing option*/
+.price-option {
+    padding-top: 60px ; padding-bottom: 60px ; background: #F5F5F5
+}
+
+.price-option .price-text price-desc {
+    color: #a1a1a1 ; font-size: 13px
+}
+
+.price-box {
+    border: 1px solid #FFF ; margin-top: 90px ; 
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer
+}
+
+.profesional {
+    margin-top: 50px
+}
+
+.price-box h3 {
+    color: #FFF ; font-weight: bold ; border-bottom: 1px solid #FFF ; background: #333 ; padding: 15px ;
+    margin-top: 0 ; margin-bottom: 0
+}
+
+
+
+.price-box .option-price {
+    color: #FFF ; background: #333 ; border-bottom: 4px solid #FF8B38; padding: 10px 0 20px
+}
+
+.price-box .option-price .usd {
+    font-size: 25px ; font-weight: bold
+}
+
+.price-box .option-price .num {
+    font-size: 55px ; font-weight: bold
+}
+
+.price-box .advanced {
+    padding: 10px ; background: #FF8B38 ; color: #FFF ;
+}
+
+.price-box span.period {
+    display: block ; font-style: italic ; color: #ccc5c5 ; padding-bottom: 15px ; font-size: 12px
+}
+
+.price-box .congi {
+    color: #888 ; background: #FFF ; margin-bottom: 0
+}
+
+.price-box .congi li {
+    padding: 10px
+}
+
+.price-box .congi li:not(:last-of-type) {
+    border-bottom: 1px solid #F5F5F5
+}
+
+
+.price-box:hover {
+    -webkit-transform: scale(1.08, 1.08);
+    transform: scale(1.08, 1.08);
+}
+
+/*End Pricing option*/
+
+/*Start customers */
+
+.customers {
+    padding: 70px 0 
+}
+
+.customers .text-desc{
+    color: #a1a1a1
+}
+
+.customers .customers-text {
+    margin-bottom: 50px
+}
+
+.customers .comment {
+    background: #F5F5F5 ; padding: 15px ; position: relative
+}
+
+.customers .comment:after {
+    position: absolute ; content: "" ; display: block ; width: 0 ; height: 0 ; 
+    border-style: solid; border-width: 15px 15px 15px 15px ; 
+    border-color: #f5f5f5 transparent transparent transparent; left: 16px ; bottom: -28px 
+}
+
+.customers img {
+    border-radius: 50% ; float: left ; margin-right: 15px
+}
+
+.customers h3 {
+    font-weight: bold
+}
+
+.customers span {
+    float: left
+}
+
+/*End customers */
+
+/*Start Stylish*/
+.stylish {
+    min-height: 300px;
+    background: url(../images/stylish.jpg)no-repeat center center fixed;
+    background-size: cover;
+    position: relative
+    
+}
+
+.stylish .overlay {
+    background: rgba(0,0,0,0.7) ; height: 100% ; width: 100% ; top: 0 ; left: 0 ; position: absolute ;
+    padding-top: 50px ; padding-bottom: 50px
+}
+
+.stylish .head-border-center:after {
+    background: #FFF
+}
+
+.stylish .h1 {
+    color: #FFF
+} 
+.stylish p {
+    color: #FFF
+}
+
+.stylish .btn {
+    background: transparent ; color: #929292 ; border: 1px solid #FFF ; width: 200px ; margin-top: 30px
+}
+
+.stylish .btn:hover {
+    color: #FFF
+}
+/*End Stylish*/
+
+/*Start contact*/
+
+.contact {
+    padding: 70px 0
+}
+
+.contact .group input {
+    border: none ; border-bottom: 2px solid #e1e1e1 ; display: block ; color: #333 ;width: 90%;
+    padding: 11px ; margin-bottom: 10px
+}
+
+.contact .contact-form {
+    margin-top: 70px
+}
+
+.contact textarea {
+    border: none; margin-top: 4px ; resize: none ; border-bottom: 2px solid #e1e1e1 ;
+}
+
+.contact button {
+    margin-top: 30px ; background: #FF8B38 ; width: 180px ; height: 50px ; font-weight: bold ; letter-spacing: 2px
+}
+
+/*End contact*/
+
+/*Start footer*/
+
+.footer {
+    background: #000 ; padding: 20px 0 10px
+}
+
+.footer i {
+    color: #FFF ; font-size: 30px ; margin-right: 15px ; cursor: pointer
+}
+
+.footer h4 {
+    color: #FFF ; font-size: 15px
+}
+
+/*End footer*/
+
+/*Start Framework*/
+.head-border:after {
+    content: ""; display: block ; width: 65px ; height: 2px ; background: #FF8B38 ; margin: 25px 0
+}
+
+.head-border-center:after {
+    content: ""; display: block ; width: 65px ; height: 2px ; background: #FF8B38 ; margin: 25px auto
+}
+
+@media (max-width: 767px) {
+    
+    .text-center-xs {
+        text-align: center
+    }
+    
+}
+
+/*End Framework*/
